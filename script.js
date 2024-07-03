@@ -12,6 +12,9 @@ document.getElementById("theme-toggle").addEventListener("change", function() {
     const Youtube = document.querySelector('.youtube');
     Youtube.classList.toggle("light-mode");
     Youtube.classList.toggle("dark-mode");
+      const Social= document.querySelector('.social-link.light-mode ');
+    Social.classList.toggle("light-mode");
+    Social.classList.toggle("dark-mode");
 });
 
   
